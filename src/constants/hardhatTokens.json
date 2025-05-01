@@ -1,0 +1,58 @@
+[
+{
+    "token_address": "0xf531B8F309Be94191af87605CfBf600D71C2cFe0",
+    "name": "WETH",
+    "symbol": "WETH",
+    "logo": "",
+    "thumbnail": "",
+    "decimals": 18,
+    "balance": "10000000000000000000000",
+    "possible_spam": true,
+    "verified_contract": true,
+    "total_supply":"10000" ,
+    "total_supply_formatted":"1000" ,
+    "percentage_relative_to_total_supply":10000
+  },
+  {
+    "token_address": "0x5aB78BDc5ea9DeCf24e426e8C764B980F35F3D8D",
+    "name": "m20-1",
+    "symbol": "M20-1",
+    "logo": "",
+    "thumbnail": "",
+    "decimals": 18,
+    "balance": "200000000000000000000",
+    "possible_spam": true,
+    "verified_contract": true,
+    "total_supply":"10000" ,
+    "total_supply_formatted":"1000" ,
+    "percentage_relative_to_total_supply":10000
+  },
+  {
+    "token_address": "0x5ac550C893D53b464e40891cc63ddaa44cDC5bcB",
+    "name": "m20-2",
+    "symbol": "M20-2",
+    "logo": "",
+    "thumbnail": "",
+    "decimals": 18,
+    "balance": "200000000000000000000",
+    "possible_spam": true,
+    "verified_contract": true,
+    "total_supply":"10000" ,
+    "total_supply_formatted":"1000" ,
+    "percentage_relative_to_total_supply":10000
+  },
+  {
+    "token_address": "0x150A60D9df36344dde116b4489Dedbf31e4815E8",
+    "name": "m20-3",
+    "symbol": "M20-3",
+    "logo": "",
+    "thumbnail": "",
+    "decimals": 18,
+    "balance": "200000000000000000000",
+    "possible_spam": true,
+    "verified_contract": true,
+    "total_supply":"10000" ,
+    "total_supply_formatted":"1000" ,
+    "percentage_relative_to_total_supply":10000
+  }
+]

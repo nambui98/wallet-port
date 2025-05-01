@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+
+    //new
+    --white: 255 255 255; //#FFFFFF
+    --primary-20: 217 215 247; //#D9D7F7
+    --primary-100: 60 123 253; //#3C7BFD
+    --primary-light: 100 150 254; //#6496FE
+    --red: 255 104 109; //#FF686D
+    --green: 41 203 110; //#29CB6E
+    --dark-20: 104 105 118; //#686976
+    --dark-40: 169 169 169; //#A9A9A9
+    --dark-80: 53 54 64; //#353640
+    --dark-100: 20 22 29; //#14161D
+  }
+}
+
+@layer base {
+  * {
+  }
+
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    @apply bg-dark-100 relative  text-white antialiased font-montserrat;
+  }
+}
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    @apply w-1 h-1 overflow-hidden rounded-full;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-[#3C7BFD]/80 dark:bg-gray-400 rounded-full cursor-pointer hover:bg-[#3C7BFD];
+  }
+
+  /* Optional: Add a "scrollbar-active" class to the body when scrolling */
+  body.scrollbar-active::-webkit-scrollbar-thumb {
+    @apply bg-[#3C7BFD];
+  }
+
+  /* Responsive adjustments (example for mobile) */
+  @media (max-width: 768px) {
+    ::-webkit-scrollbar {
+      @apply w-1 h-1;
+    }
+  }
+}
+
+@layer components {
+  .box-container {
+    max-width: 1120px;
+  }
+}
+/* Hide the up and down arrows from input type number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+// /* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
